@@ -1,0 +1,32 @@
+.success{
+    color: green;
+    font-size: 14px;
+}
+.error{
+    color: red;
+    font-size: 14px;
+} 
+.no-data-available {
+    text-align: center;
+  }
+  
+  /*
+     src/styles.css (i.e. your global style)
+  */
+.dataTables_empty {
+display: none;
+}
+
+.btn1 {
+    color : rgb(230, 236, 234);
+    background-color: rgba(4, 99, 67, 0.96);
+    border-radius: 10px  10px  10px 10px;
+    font-size: 20px;
+  }
+  .ng-valid[required], .ng-valid.required  {
+    border-left: 5px solid #42A948; /* green */
+  }
+  
+  .ng-invalid:not(form)  {
+    border-left: 5px solid #a94442; /* red */
+  }
